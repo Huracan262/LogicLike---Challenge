@@ -31,7 +31,7 @@
 Опишите, как можно запустить ваш проект локально. Например:
 
 ```bash
-git clone <url-репозитория>
-cd <название-проекта>
+git clone https://github.com/Huracan262/LogicLikeChallenge
+cd LogicLikeChallenge
 npm install
 npm start
