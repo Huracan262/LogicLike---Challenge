@@ -1,25 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react';
+
+import SideBar from './components/SideBar';
+import Courses from './components/Courses';
+
+import './styles/global.scss';
+import './App.scss'
+import { IData, useFetchData } from './hooks/useFetchData';
 
 function App() {
+  const { data } = useFetchData();
+  const [ visibleCourses, setVisibleCourses] = useState<IData[]>(data);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="main">
+      <h1 className='visually-hidden'>
+        Курсы
+      </h1>
+
+      <SideBar className='main__side-bar' setVisibleCourses={setVisibleCourses} data={data} />
+
+      <Courses className='main__courses' visibleCourses={visibleCourses} />
+    </main>
   );
 }
 

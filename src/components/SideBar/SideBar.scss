@@ -1,0 +1,21 @@
+@import '../../styles/variables';
+
+.side-bar {
+  padding: 11px;
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 18px;
+  border: 1px solid $color-grey;
+
+  &__button {
+    width: 240px;
+    background-color: transparent !important;
+  }
+
+  &__button--current {
+    color: white;
+
+    background-color: $color-green !important;
+  }
+}

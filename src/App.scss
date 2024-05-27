@@ -1,0 +1,28 @@
+.main {
+  width: 1503px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+
+  &__side-bar {
+  }
+
+  &__courses {
+    flex-grow: 1;
+  }
+}
+
+
+@media (max-width: 1603px) {
+  .main {
+    width: 100%;
+    padding: 0 50px;
+  }
+}
+
+@media (max-width: 955px) {
+  .main {
+    width: 955px;
+  }
+}

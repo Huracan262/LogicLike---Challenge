@@ -1,0 +1,33 @@
+@import '../../styles/variables';
+
+.button {
+  padding: 12px;
+
+  text-align: left;
+
+  border-radius: 12px;
+  border: none;
+  background-color: $color-green;
+
+  cursor: pointer;
+
+  &__text {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+
+    transition: transform 100ms ease-out;
+  }
+
+  &:hover &__text {
+    display: inline-block;
+    transform: scale(1.03);
+  }
+
+  &:active &__text {
+    display: inline-block;
+    transform: scale(1);
+  }
+}
