@@ -10,6 +10,7 @@
   box-shadow: 0 10px 13px -4px rgba(35, 35, 95, 0.19);
 
   overflow: hidden;
+  cursor: pointer;
 
   transition: transform 100ms ease-out;
 
@@ -35,5 +36,8 @@
     align-items: center;
     height: 162px;
     order: -1;
+
+    pointer-events: none;
+    user-select: none;
   }
 }
