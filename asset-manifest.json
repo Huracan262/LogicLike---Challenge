@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/LogicLikeChallenge/static/css/main.f0e259e3.css",
-    "main.js": "/LogicLikeChallenge/static/js/main.0228374b.js",
+    "main.css": "/LogicLikeChallenge/static/css/main.469c9167.css",
+    "main.js": "/LogicLikeChallenge/static/js/main.cc8fb99e.js",
     "static/media/Nunito-800.woff2": "/LogicLikeChallenge/static/media/Nunito-800.e295179baf2aa12ebf4a.woff2",
     "static/media/Nunito-800.woff": "/LogicLikeChallenge/static/media/Nunito-800.5a49a871e6a2fd89b153.woff",
     "index.html": "/LogicLikeChallenge/index.html",
-    "main.f0e259e3.css.map": "/LogicLikeChallenge/static/css/main.f0e259e3.css.map",
-    "main.0228374b.js.map": "/LogicLikeChallenge/static/js/main.0228374b.js.map"
+    "main.469c9167.css.map": "/LogicLikeChallenge/static/css/main.469c9167.css.map",
+    "main.cc8fb99e.js.map": "/LogicLikeChallenge/static/js/main.cc8fb99e.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0e259e3.css",
-    "static/js/main.0228374b.js"
+    "static/css/main.469c9167.css",
+    "static/js/main.cc8fb99e.js"
   ]
 }
