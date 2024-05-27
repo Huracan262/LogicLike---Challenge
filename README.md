@@ -3,6 +3,9 @@
 Тестовое задание для собеседования в компанию LogicLike.
 Выполнен по ТЗ: https://docs.google.com/document/d/1nac_dVRto6Fr7d3qZC9opjYIqCDx9L1zC-4CNyq91e0/edit.
 
+## Запущенный проект
+https://huracan262.github.io/LogicLikeChallenge/
+
 ## Основные особенности
 
 - **Фреймворк**: Проект разработан на основе `create-react-app` с использованием TypeScript, что обеспечивает типизацию и улучшенное управление кодом.
