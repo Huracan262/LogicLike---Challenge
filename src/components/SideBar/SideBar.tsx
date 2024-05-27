@@ -1,10 +1,11 @@
 import React, { useCallback, useEffect, useState } from 'react';
 
-import Button from '../../UI/Button';
-import './SideBar.scss';
-import { IData } from '../../hooks/useFetchData';
 import getTags from './utils/getTags';
 import filterData from './utils/filterData';
+import Button from '../../UI/Button';
+import { IData } from '../../hooks/useFetchData';
+
+import './SideBar.scss';
 
 interface ISideBar {
   className?: string;

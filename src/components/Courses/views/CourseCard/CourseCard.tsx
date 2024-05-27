@@ -13,6 +13,7 @@ interface ICourseCard {
 const CourseCard: React.FC<ICourseCard> = ({className, course, onClick}) => {
   return (
     <a
+      href='#'
       onClick={onClick}      // TODO - заглушка
       className={`link ${className}`}
     >
